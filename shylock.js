@@ -5,7 +5,7 @@ var log = document.querySelector("#log");
 
 // creating counter of how much money is borrowed and paid
 var counterAntonio = 0;
-var counterBassario = 0;
+var counterBassanio = 0;
 
 
 // creating act1
@@ -20,7 +20,7 @@ var newLi = function (event) {
     	// if true, create element 
         var logEntry = document.createElement('li')
         // extract inner text of element
-        logEntry.textContent = prompt.value
+        logEntry.textContent = prompt.value.toLowerCase()
         // set class for later
         logEntry.setAttribute('class', 'prompted')
         // append to ul
@@ -39,18 +39,18 @@ var newLi = function (event) {
 var promptReply = function (entry) {
     console.log(entry);
     // if entry is == purse
-    if (entry.textContent === "Purse" || entry.textContent === "purse" || entry.textContent === "PURSE" ) {
+    if (entry.textContent === "purse" ) {
         // create new li
         var promptedResponse = document.createElement('li');
         // new li will say response
-        promptedResponse.innerText = "ShylockBot pulls out his purse containing " + (10000 - counterAntonio - counterBassario )+  " ducats";
+        promptedResponse.innerText = "ShylockBot pulls out his purse containing " + (10000 - counterAntonio - counterBassanio )+  " ducats";
         // all responses by shylock have emote class
         promptedResponse.setAttribute('class', 'emote');
         // appending response to ul log
         log.appendChild(promptedResponse);
 
 		// Same as above happens, with different response
-    } if (entry.textContent === "loan Antonio 50 ducats") {
+    } if (entry.textContent === "loan antonio 50 ducats") {
     		entry.setAttribute("class", "loan");
         var promptedResponse = document.createElement('li');
         promptedResponse.innerText = "ShylockBot gives Antonio 50 ducats";
@@ -61,15 +61,15 @@ var promptReply = function (entry) {
 
 	
 		// Same as above happens, with different response
-    } if (entry.textContent === "loan Bassario 25 ducats") {
+    } if (entry.textContent === "loan bassanio 25 ducats") {
         var promptedResponse = document.createElement('li');
-        promptedResponse.innerText = "ShylockBot gives Antonio 25 ducats";
+        promptedResponse.innerText = "ShylockBot gives Bassanio 25 ducats";
         promptedResponse.setAttribute('class', 'emote');
         log.appendChild(promptedResponse);
-        // setting Bassario's counter so we can add up how much he owes
-        counterBassario += 25;
+        // setting bassanio's counter so we can add up how much he owes
+        counterBassanio += 25;
 
-      } if (entry.textContent === "ledger" || entry.textContent === "Ledger" || entry.textContent === "LEDGER") {
+      } if (entry.textContent === "ledger" ) {
         var promptedResponse = document.createElement('li');
         promptedResponse.innerText = "ShylockBot pulls out his ledger";
         promptedResponse.setAttribute('class', 'emote');
@@ -81,18 +81,18 @@ var promptReply = function (entry) {
         log.appendChild(promptedResponse);
 
         var promptedResponse = document.createElement('li');
-        promptedResponse.innerText = "Bassario Owes me " + counterBassario + " ducats";
+        promptedResponse.innerText = "Bassanio Owes me " + counterBassanio + " ducats";
         promptedResponse.setAttribute('class', 'emote');
         log.appendChild(promptedResponse);
 
-      } if (entry.textContent === "collect 50 ducats from Antonio") {
+      } if (entry.textContent === "collect 50 ducats from antonio") {
         var promptedResponse = document.createElement('li');
         promptedResponse.innerText = "Shylock opens his purse" ;
         promptedResponse.setAttribute('class', 'emote');
         log.appendChild(promptedResponse);
         counterAntonio -= 50;
 
-      } if (entry.textContent === "collect 25 ducats from Bassario") {
+      } if (entry.textContent === "collect 25 ducats from bassanio") {
         var promptedResponse = document.createElement('li');
         promptedResponse.innerText = "Shylock opens his purse";
         promptedResponse.setAttribute('class', 'emote');
@@ -100,7 +100,7 @@ var promptReply = function (entry) {
         counterAntonio -= 25;
 
 
-      } if (entry.textContent === "collect interest" || entry.textContent === "Collect interest") {
+      } if (entry.textContent === "collect interest") {
         var promptedResponse = document.createElement('li');
         promptedResponse.innerText = "ShylockBot collects interest at 15%";
         promptedResponse.setAttribute('class', 'emote');
@@ -112,7 +112,7 @@ var promptReply = function (entry) {
         log.appendChild(promptedResponse);
 
         var promptedResponse = document.createElement('li');
-        promptedResponse.innerText = "Bassario Owes me " + (counterBassario + (counterBassario*0.15)) + " ducats";
+        promptedResponse.innerText = "Bassanio Owes me " + (counterBassanio + (counterBassanio*0.15)) + " ducats";
         promptedResponse.setAttribute('class', 'emote');
         log.appendChild(promptedResponse);
 
