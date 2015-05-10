@@ -1,0 +1,102 @@
+#content {
+	width: 80%;
+	height: 930px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	
+}
+
+p {
+	font-family: helvetica;
+	font-size: 13px;
+	line-height: 20px;
+	color: #949494;
+	margin: 0px;
+	text-align: left;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 40px;
+	color: #eb354a;
+}
+
+.commands {
+	font-family: helvetica;
+	font-size: 13px;
+	line-height: 23px;
+	color: #949494;
+	text-align: left;
+	float: left;
+	margin: 0px;
+	margin-left: 0px;
+	padding-right: 50px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+/*img{
+	margin-right: auto;
+	margin-left: auto;
+
+}*/
+
+#prompt {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	padding-left: 10px;
+	border: solid 1px #eb354a;
+	border-radius: 8px;
+}
+
+#log {
+	width: 100%;
+	padding-left: 10px;
+	height: 300px;
+	overflow: auto;
+	background-color: #dedede;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.prompted {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #d32d40;
+	list-style-type: none;
+/*	background-color: #f0eeee;*/	
+	text-align: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+
+
+
+.loan {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #d32d40;
+	list-style-type: none;
+	text-align: left;
+	padding: 6px;
+	padding-left: 20px;
+}
+
+.emote {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #585858;
+	font-weight: bold;
+	list-style-type: none;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
