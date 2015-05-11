@@ -1,7 +1,7 @@
 body {
 	background-color: #E6E6E6 ;
 	font-family: helvetica;
-	font-size: 13px;
+	font-size: 14px;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -60,6 +60,8 @@ td {
 	margin-bottom: 25px;
 	margin-top: 5px;
 	text-align: center;
+	line-height: 15px;
+	font-size: 15px;
 
 }
 
@@ -70,8 +72,8 @@ td {
 	border-radius: 6px;
 	padding: 10px;
 	background-color: #fff;
-	height: 14px;
-	line-height: 13px;
+	height: 15px;
+	line-height: 15px;
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
