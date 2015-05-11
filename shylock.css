@@ -1,5 +1,5 @@
 #content {
-	width: 80%;
+	width: 600px;
 	height: 930px;
 	margin-left: auto;
 	margin-right: auto;
@@ -13,20 +13,21 @@ p {
 	font-family: helvetica;
 	font-size: 13px;
 	line-height: 20px;
-	color: #949494;
+	color: #CC0000;
 	margin: 0px;
 	text-align: left;
-	margin-top: 15px;
+	margin-top: 20px;
 	padding-bottom: 10px;
 }
 
 h1{
 	font-family: helvetica;
 	font-size: 40px;
-	color: #eb354a;
+	color: #CC0000;
 }
 
 .commands {
+	width: 280px;
 	font-family: helvetica;
 	font-size: 13px;
 	line-height: 23px;
@@ -35,7 +36,7 @@ h1{
 	float: left;
 	margin: 0px;
 	margin-left: 0px;
-	padding-right: 50px;
+	padding-right: 10px;
 	list-style-type: none;
 	padding-left: 0px;
 }
@@ -50,7 +51,7 @@ h1{
 	height: 50px;
 	font-size: 20px;
 	padding-left: 10px;
-	border: solid 1px #eb354a;
+	border: solid 1px #CC0000;
 	border-radius: 8px;
 }
 
@@ -70,7 +71,7 @@ h1{
 	color: #d32d40;
 	list-style-type: none;
 /*	background-color: #f0eeee;*/	
-	text-align: left;
+/*	text-align: left;*/
 	padding: 6px;
 	padding-left: 20px;
 }
@@ -82,7 +83,7 @@ h1{
 	font-size: 16px;
 	color: #d32d40;
 	list-style-type: none;
-	text-align: left;
+/*	text-align: left;*/
 	padding: 6px;
 	padding-left: 20px;
 }
@@ -93,7 +94,7 @@ h1{
 	color: #585858;
 	font-weight: bold;
 	list-style-type: none;
-	text-align: left;
+/*	text-align: left;*/
 	padding-left: 40px;
 	padding-top: 5px;
 	padding-bottom: 5px;
