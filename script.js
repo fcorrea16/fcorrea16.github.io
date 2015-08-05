@@ -25,6 +25,14 @@ window.addEventListener('load', function() {
  			},"slow");
 	})
 
+	$('.button-works').on('mouseover', function(event){
+		$(event.target).children().css('color', '#fff')
+	})
+
+	$('.button-works').on('mouseout', function(event){
+		$(event.target).children().css('color', '#e74632')
+	})
+
 
 
 })

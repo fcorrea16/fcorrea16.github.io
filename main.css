@@ -1,5 +1,6 @@
 /* MAIN STYLES */
 
+
 a {
 	text-decoration: none;
 	color: #392757;
@@ -79,6 +80,86 @@ a:hover {
 
 #works{
   background-color: #ccc;
-  height: 800px;
+  height: 100%;
+  font-family: helvetica;
+  padding-bottom: 100px;
 }
 
+#works .project1, .project2, .project3{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-sizng: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#works .project1 {
+  padding-top: 100px;
+}
+
+#works img{
+  width: 60%;
+  border-radius: 10px;
+  float: right;
+  margin-left: 20px;
+}
+
+#works h2{
+  font-size: 40px; 
+  line-height: 40px;
+  color: #330066;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#works h3{
+  font-size: 20px; 
+  line-height: 20px;
+  color: #3d3d3d;
+  padding-bottom: 20px;
+}
+
+#works li {
+  font-size: 14px; 
+  line-height: 20px;
+  color: #3d3d3d;
+  padding-bottom: 15px;
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+#works button {
+  font-weight: bold;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  font-size: 16px; 
+  line-height: 20px;
+  border: #e74632 4px solid;
+  background-color: #ccc;
+  margin-top: 15px;
+}
+
+
+#works button a {
+  color: #e74632;
+}
+
+#works button:hover {
+  border: #e74632 4px solid;
+  background-color: #e74632;
+  color: white;
+}
+
+#works button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  margin: 60px;
+  border: solid 1px #3d3d3d;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
