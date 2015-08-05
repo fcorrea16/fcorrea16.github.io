@@ -181,6 +181,7 @@ hr {
   background-color: #ccc;
   margin-top: 25px;
   cursor: pointer;
+/*  transform: scale(1);*/
 }
 
 .button-works:hover {
@@ -188,6 +189,8 @@ hr {
   color: white;
   border: #e74632 4px solid;
   background-color: #e74632;
+  /*transform: scale(1.2);*/
+  transition: all 0.5s ease-in;
 }
 
 
