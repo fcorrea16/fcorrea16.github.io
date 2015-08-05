@@ -1,12 +1,4 @@
-#topNav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 10px;
-	width: 100%;
-	background-color: #00E6B8;
-}
-
+/* MAIN STYLES */
 .background {
 	margin-top:10px;
 	height: 40px;
@@ -25,10 +17,20 @@ a:hover {
 }
 
 
+/* TOP NAV */
+
+#topNav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 6px;
+	width: 100%;
+	background-color: #00E6B8;
+}
 
 #topNav p {
 	float: left;
-	padding-left: 50px;
+	padding-left: 35px;
 	font: 18px Helvetica;
 	font-weight: bold;
   line-height: 40px;
@@ -36,44 +38,142 @@ a:hover {
 }
 
 #topNav li {
-	font: 18px Helvetica;
+	font: 16px Helvetica;
   line-height: 40px;
   float: right;
   padding-right: 30px;
   color: #333;
 }
 
-#about p {
-  font: 130px Helvetica;
+
+
+/* HOME PAGE*/
+
+#mainContent{
+  /*margin-top: 100px;*/
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+#mainContent .project{
+  margin-top:50px;
+}
+
+#mainContent h2{
+  font: 120px Helvetica;
   font-weight: 700;
-  letter-spacing: -2px;
-  line-height: 130px;
-  margin-top: 130px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
+  letter-spacing: -2px;  
+  line-height: 120px;
+  color: #000;
+  padding-bottom: 15px;
+  /*background-color: #3366FF;*/
+  text-align: center;
+  float: left;
+}
+
+#mainContent h3 {
+  font: 20px Helvetica;
+  font-weight: 500; 
+  line-height: 20px;
+  padding-top: 85px;
+  color: #000;
+  text-align: right;
+  float: right;
+  /*background-color: #3366FF;*/
+}
+
+
+.projectPoints li {
+  font: 14px Helvetica; 
+  line-height: 20px;
+  color: #000;
+  list-style-type: circle;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project img{
+  -moz-box-sizng: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  color: #000;
+ /* padding-left: 20px;
+  padding-right: 20px;*/
+}
+
+.project1, .project2, .project3 {
+  /*background-color: #E6E6E6;*/
+  padding: 30px;
 }
 
 
 
-#about ul {
-	font: 50px Helvetica;
+
+
+
+
+/* ABOUT PAGE */
+
+
+
+
+#about, #about2 {
+  margin-top: 130px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about2{
+  margin-top: 0;
+}
+
+#about p {
+  font: 50px Helvetica;
+  font-weight: 700;
+  letter-spacing: -2px;  
+  line-height: 80px;
+  color: #000;
+  padding-bottom: 35px;
+}
+
+#about2 p {
+  font: 40px Helvetica;
+  font-weight: 700;
+  letter-spacing: -2px;  
+  line-height: 60px;
+  color: #000;
+
+}
+
+#about2 ul {
+  font: 30px Helvetica;
   font-weight: 700;
   letter-spacing: -2px;
-  line-height: 60px;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  margin-top: 40px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  color: #434343;
 }
 
-#about a {
-	text-decoration: none;
-	color: #00E6B8;
+
+#about2 p:last-child {
+
+  margin-bottom: 50px;
+
 }
 
-#about a:hover {
-	text-decoration: underline;
-	color: #434343;
+
+#about2 a {
+  text-decoration: none;
+  color: #00E6B8;
+}
+
+#about2 a:hover {
+  text-decoration: underline;
+  color: #434343;
 }
