@@ -8,7 +8,7 @@ My areas of expertise:
 - Branding
 - E-commerce
 
-Connect with me on [LinkedIn](http://www.linkedin.com/in/fernandascorrea) or explore my [Github](http://github.com/fcorrea16/)
+Connect with me on [LinkedIn](http://www.linkedin.com/in/fernandascorrea), explore my [Github](http://github.com/fcorrea16/), or checkout my [Portfolio](http://fernandacorrea.com/)
 
 For fun I like to take pictures, play roller derby and travel the world. My designs and work come from my passion for all of the above. I am what I see and explore. And I was born and raised in Rio de Janeiro, Brasil.
 
