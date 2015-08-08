@@ -31,13 +31,15 @@ window.addEventListener('load', function() {
 
 	$('.menu-work').on('click', function(event){
 		 $("html, body").animate({
- 				scrollTop:1140
+ 				scrollTop: $('#works').offset().top 
+ 				// scrollTop:1140
  			},"slow");
 	})
 
 	$('.menu-about').on('click', function(event){
 		 $("html, body").animate({
- 				scrollTop:2600
+		 		scrollTop: $('#about-background').offset().top 
+ 				// scrollTop:2600
  			},"slow");
 	})
 
