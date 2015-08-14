@@ -264,3 +264,10 @@ h2 {
 #about a{
   color: #F19489;
 }
+
+
+/* GO TO TOP */
+
+#top-button:hover {
+  opacity: 1;
+}
