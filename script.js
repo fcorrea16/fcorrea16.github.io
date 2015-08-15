@@ -2,9 +2,9 @@ window.addEventListener('load', function() {
 
 	$(document).on("scroll", function(e){
 		var scrolled = $(window).scrollTop();
-		// console.log("scrolled" + scrolled + "pixels")
+		console.log("scrolled" + scrolled + "pixels")
 	
-		if (scrolled > 390) {
+		if (scrolled > 200) {
 			$('.intro-text').css('opacity', 1)
 			$('.textbreak').css("transform", "translateY(0px)");
 		}

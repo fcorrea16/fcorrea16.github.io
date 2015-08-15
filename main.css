@@ -41,14 +41,13 @@ hr {
 	float: left;
 	padding-left: 35px;
 	font: 20px Helvetica;
-	/*font-weight: bold;*/
   line-height: 60px;
   color: #333;
 }
 
 #topNav li {
 	font: 16px Helvetica;
-  line-height: 60px;
+  line-height: 62px;
   float: right;
   padding-right: 30px;
   color: #333;
@@ -75,9 +74,8 @@ hr {
   background-color: #fff;
   opacity: 0.6;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 25px;
   cursor: pointer;
-  height: 15px;
 }
 
 #top-button:hover {
@@ -95,13 +93,17 @@ hr {
 
 /* INTRO */
 
-#intro img{
-  width: 100%;
-  height: 100%;
+#intro{
+  background-image: url(images/fc-image3.jpg);
+  height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+
 #intro2{
-  margin-top: -10px;
   width: 100%;
   height: 350px;
   background-color: #330066;
@@ -131,7 +133,7 @@ hr {
 
 #works{
   background-color: #ccc;
-  height: 100%;
+  height: auto;
   font-family: helvetica;
   padding-bottom: 100px;
 }
@@ -154,6 +156,7 @@ hr {
   border-radius: 10px;
   float: right;
   max-height: 300px;
+  max-width: 521px;
   margin-left: 20px;
   margin-top: -20px;
 }
@@ -168,7 +171,7 @@ hr {
 
 #works h3{
   font-size: 20px; 
-  line-height: 20px;
+  line-height: 25px;
   color: #3d3d3d;
   padding-bottom: 20px;
 }
@@ -211,15 +214,22 @@ hr {
 }
 
 
+
+
+
+
+
+
+
 /* ABOUT */
 
 
 #about-background {
   background-color: #e74632;
   width: 100%;
-  height: 800px;
+  height: auto;
   color: white;
- 
+  padding-bottom: 50px;
 }
 
 #about {
@@ -283,4 +293,75 @@ h2 {
 }
 
 
+
+
+
+
+/* TABLET / MOBiLE RESIZING */
+
+
+@media (max-width: 900px) {
+
+  #intro2 p {
+    width: 80%;
+    font-size: 25px;
+    line-height: 45px;
+    padding-top: 4%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  #works img{
+    float: none;
+    width: 110%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+
+  #works .project1, .project2, .project3{
+    width: 50%;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  #intro{
+   max-height: 700px;
+  }
+
+  #intro2{
+    height: 300px;
+  }
+
+  #intro2 p {
+    width: 80%;
+    font-size: 21px;
+    line-height: 35px;
+    padding-top: 2%;
+  }
+
+  #works img{
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  #works h3{
+    padding-bottom: 10px;
+  }
+
+  #works .project1, .project2, .project3{
+    width: 80%;
+  }
+
+  #about p{
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+}
 
