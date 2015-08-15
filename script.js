@@ -50,8 +50,8 @@ window.addEventListener('load', function() {
  			},"slow");
 	})
 
-	$('.button-works').on('mouseover', function(event){
-		$(event.target).css('transform', 'scale(1.2)')
-	})
+	// $('.button-works').on('mouseover', function(event){
+	// 	$(event.target).css('transform', 'scale(1.2)')
+	// })
 
 }) // closing on load
