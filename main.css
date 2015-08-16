@@ -303,7 +303,7 @@ h2 {
 
 /* TABLET / MOBiLE RESIZING */
 
-/*
+
 
 @media (max-device-width: 400pt) {
 
@@ -323,6 +323,10 @@ h2 {
 
 
   #intro{
+    background-image: url(images/fcorrea-mobile.jpg);
+
+  }
+/*  #intro{
     background-position: 50% 50%;
     height: 600pt;
   }
@@ -371,12 +375,12 @@ h2 {
   #about p{
     font-size: 19pt;
     line-height: 30pt;
-  }
+  }*/
 
 }
 
 
-@media (max-width: 900pt) {
+/*@media (max-width: 900pt) {
 
   #intro2 p {
     width: 80%;
@@ -399,4 +403,3 @@ h2 {
 
 }
 */
-
