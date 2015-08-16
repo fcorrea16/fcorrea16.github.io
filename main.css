@@ -97,10 +97,10 @@ hr {
 #intro{
   background-image: url(images/fc-image3.jpg);
   height: 700pt;
-  /*background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 
@@ -143,7 +143,6 @@ hr {
 #works .project1, .project2, .project3{
   padding-bottom: 20px;
   height: 100%;
-
 }
 
 #works .project1 {
@@ -305,7 +304,7 @@ h2 {
 
 
 
-@media (max-device-width: 420pt) {
+@media (max-device-width: 400pt) {
 
   #topNav {
     height: 110pt;
@@ -324,31 +323,55 @@ h2 {
 
   #intro{
     background-image: url(images/fcorrea-mobile.png);
-    width: 100%;
-  }
-/*  #intro{
-    background-position: 50% 50%;
     height: 600pt;
-  }
-
-  #intro{
-  background-image: url(images/fc-image3.jpg);
-  height: 700pt;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-  #intro2{
-    height: 300pt;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin-top: 80px;
+    background-size: 110% ;
   }
 
   #intro2 p {
-    width: 95%;
-    font-size: 30pt;
+    opacity: 1;
+    width: 90%;
+    font-size: 25pt;
     line-height: 40pt;
   }
+
+
+  .project-info{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .project-image {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10pt;
+  }
+
+  .project-image img{
+    width:100%;
+    border-radius: 10pt;
+    margin-top: 30px;
+  }
+
+  #works li {
+    font-size: 13pt; 
+    line-height: 16pt;
+    color: #3d3d3d;
+    padding-bottom: 15pt;
+    list-style-type: disc;
+    margin-left: 15pt;
+  }
+
+  #about p {
+    font-size: 19pt;
+    line-height: 30pt;
+  }
+
+/*  
+ 
 
   #works {
     margin-left: auto;
