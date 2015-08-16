@@ -304,17 +304,17 @@ h2 {
 @media (max-device-width: 400px) {
 
   #topNav {
-    height: 90px;
+    height: 110px;
   }
 
   #topNav p {
-    font: 30px Helvetica;
-    line-height: 90px;
+    font: 40px Helvetica;
+    line-height: 110px;
   }
 
   #topNav li {
-    font: 22px Helvetica;
-    line-height: 92px;
+    font: 30px Helvetica;
+    line-height: 110px;
   }
 
 
@@ -336,7 +336,7 @@ h2 {
   #works {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
 
