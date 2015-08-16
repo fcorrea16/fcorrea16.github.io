@@ -306,19 +306,13 @@ h2 {
 
 @media (max-device-width: 400pt) {
   #intro{
-   /* background-image: url(images/fc-image4.jpg);
-    height: 400pt;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;*/
     background-attachment:  scroll !important;
-    /*margin-top: 80px;*/
-    /*background-size: cover;*/
   }
-
-
 
   #topNav p {
     padding-left: 10pt;
+    font: 16pt Helvetica;
+    line-height: 60pt;
   }
 
   #topNav li {
@@ -330,6 +324,7 @@ h2 {
     width: 90%;
     font-size: 18pt;
     line-height: 26pt;
+    margin-top: 2%;
   }
 
 
