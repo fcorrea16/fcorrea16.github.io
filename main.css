@@ -306,13 +306,13 @@ h2 {
 
 @media (max-device-width: 400pt) {
   #intro{
-    background-image: url(images/fc-image4.jpg);
+   /* background-image: url(images/fc-image4.jpg);
     height: 400pt;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+    background-attachment:  scroll !important;
     /*margin-top: 80px;*/
-    background-size: cover;
+    /*background-size: cover;*/
   }
 
 
