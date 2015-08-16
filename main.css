@@ -97,10 +97,10 @@ hr {
 #intro{
   background-image: url(images/fc-image3.jpg);
   height: 700pt;
-  background-position: 50% 50%;
+  /*background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 
@@ -305,7 +305,7 @@ h2 {
 
 
 
-@media (max-device-width: 400pt) {
+@media (max-device-width: 420pt) {
 
   #topNav {
     height: 110pt;
@@ -324,7 +324,7 @@ h2 {
 
   #intro{
     background-image: url(images/fcorrea-mobile.png);
-
+    width: 100%;
   }
 /*  #intro{
     background-position: 50% 50%;
