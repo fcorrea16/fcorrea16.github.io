@@ -153,14 +153,14 @@ hr {
 .project-info{
   float: left;
   width: 40%;
-  margin-left: 9%;
+  margin-left: 4%;
 }
 
 .project-image {
   float: left;
   width: 40%;
   border-radius: 10pt;
-  margin-left: 2%;
+  margin-left: 8%;
 }
 
 .project-image img{
@@ -211,9 +211,9 @@ hr {
 .button-works:hover {
   text-decoration: none;
   color: white;
-  border: #e74632 4pt solid;
+  border: #e74632 3pt solid;
   background-color: #e74632;
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 
@@ -300,7 +300,7 @@ h2 {
 
 
 
-/* TABLET / MOBiLE RESIZING */
+/* MOBILE RESIZING */
 
 
 
@@ -342,10 +342,11 @@ h2 {
   .project-info{
     width: 80%;
     margin-left: 10%;
+    margin-top: 50px;
   }
 
   .project-image {
-    width: 80%;
+    width: 60%;
     margin-left: 10%;
     border-radius: 10pt;
   }
@@ -353,7 +354,10 @@ h2 {
   .project-image img{
     width:100%;
     border-radius: 10pt;
-    margin-top: 30px;
+  }
+
+  #works .project1 {
+    padding-top: 60pt;
   }
 
   #works li {
@@ -362,64 +366,10 @@ h2 {
     padding-bottom: 25pt;
   }
 
-/*  #about p {
-    font-size: 20pt;
-    line-height: 35pt;
-  }*/
-
-/*  
- 
-
-  #works {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40pt;
-  }
-
-
-  #works img{
-    float: none;
-    width: 100%;
-    margin-left: 0pt;
-    margin-bottom: 30pt;
-  }
-
-  #works h3{
-    padding-bottom: 10pt;
-  }
-
-  #works .project1, .project2, .project3{
-    width: 100%;
-  }
-
-  #about p{
-    font-size: 19pt;
-    line-height: 30pt;
-  }*/
-
-}
-
-
-/*@media (max-width: 900pt) {
-
-  #intro2 p {
-    width: 80%;
-    font-size: 35pt;
-    line-height: 45pt;
-    padding-top: 4%;
+  #top-button{
+    transform: scale(1.5) ;
+    margin-right: 40px;
+    margin-bottom: 40px;
   }
 
 }
-
-@media (max-width: 1030pt) {
-
-  #works img{
-    float: none;
-    width: 110%;
-    margin-bottom: 30pt;
-    margin-left: 0pt;
-  }
-
-
-}
-*/
