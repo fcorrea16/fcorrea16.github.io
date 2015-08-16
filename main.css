@@ -357,18 +357,15 @@ h2 {
   }
 
   #works li {
-    font-size: 13pt; 
-    line-height: 16pt;
-    color: #3d3d3d;
-    padding-bottom: 15pt;
-    list-style-type: disc;
-    margin-left: 15pt;
+    font-size: 14pt; 
+    line-height: 17pt;
+    padding-bottom: 25pt;
   }
 
-  #about p {
-    font-size: 19pt;
-    line-height: 30pt;
-  }
+/*  #about p {
+    font-size: 20pt;
+    line-height: 35pt;
+  }*/
 
 /*  
  
