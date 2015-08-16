@@ -18,9 +18,10 @@ body {
 
 
 hr {
-  margin: 60px;
-  border: solid 1px #808080;
-  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 60pt;
+  border: solid 1pt #808080;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -32,24 +33,24 @@ hr {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 60px;
+	height: 60pt;
 	width: 100%;
 	background-color: #fff;
 }
 
 #topNav p {
 	float: left;
-	padding-left: 35px;
-	font: 20px Helvetica;
-  line-height: 60px;
+	padding-left: 35pt;
+	font: 18pt Helvetica;
+  line-height: 60pt;
   color: #333;
 }
 
 #topNav li {
-	font: 16px Helvetica;
-  line-height: 62px;
+	font: 14pt Helvetica;
+  line-height: 62pt;
   float: right;
-  padding-right: 30px;
+  padding-right: 30pt;
   color: #333;
 }
 
@@ -68,13 +69,13 @@ hr {
   display: none;
   z-index: 20;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 30pt;
+  right: 30pt;
   color: #3d3d3d;
   background-color: #fff;
   opacity: 0.6;
-  padding: 10px;
-  border-radius: 25px;
+  padding: 10pt;
+  border-radius: 25pt;
   cursor: pointer;
 }
 
@@ -95,7 +96,7 @@ hr {
 
 #intro{
   background-image: url(images/fc-image3.jpg);
-  height: 700px;
+  height: 700pt;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -105,7 +106,7 @@ hr {
 
 #intro2{
   width: 100%;
-  height: 350px;
+  height: 250pt;
   background-color: #330066;
   color: white;
 }
@@ -114,14 +115,14 @@ hr {
   width: 70%;
   font-family:  helvetica;
   color: white;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 20pt;
+  line-height: 50pt;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 4%;
+  padding-top: 2%;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(30pt);
   transition: all 0.3s ease-in;
 }
 
@@ -135,81 +136,84 @@ hr {
   background-color: #ccc;
   height: auto;
   font-family: helvetica;
-  padding-bottom: 100px;
+  padding-bottom: 100pt;
+  width: 100%;
 }
 
 #works .project1, .project2, .project3{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  -moz-box-sizng: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  padding-bottom: 20px;
+  height: 100%;
+
 }
 
 #works .project1 {
-  padding-top: 100px;
+  padding-top: 100pt;
 }
 
-#works img{
-  width: 60%;
-  border-radius: 10px;
-  float: right;
-  max-height: 300px;
-  max-width: 521px;
-  margin-left: 20px;
-  margin-top: -20px;
+
+.project-info{
+  float: left;
+  width: 40%;
+  margin-left: 9%;
+}
+
+.project-image {
+  float: left;
+  width: 40%;
+  border-radius: 10pt;
+  margin-left: 2%;
+}
+
+.project-image img{
+  width: 100%;
+  border-radius: 10pt;
 }
 
 #works h2{
-  font-size: 40px; 
-  line-height: 40px;
+  font-size: 40pt; 
+  line-height: 40pt;
   color: #330066;
-  padding-bottom: 10px;
+  padding-bottom: 5pt;
   font-weight: bold;
 }
 
 #works h3{
-  font-size: 20px; 
-  line-height: 25px;
+  font-size: 18pt; 
+  line-height: 25pt;
   color: #3d3d3d;
-  padding-bottom: 20px;
+  padding-bottom: 10pt;
 }
 
 #works li {
-  font-size: 14px; 
-  line-height: 20px;
+  font-size: 12pt; 
+  line-height: 16pt;
   color: #3d3d3d;
-  padding-bottom: 15px;
+  padding-bottom: 15pt;
   list-style-type: disc;
-  margin-left: 15px;
+  margin-left: 15pt;
 }
 
 #works ul{
-  margin-bottom: 20px;
+  margin-bottom: 20pt;
   height: 100%;
 }
 
 .button-works  {
   font-weight: bold;
-  height: 40px;
-  padding: 8px;
-  font-size: 16px; 
-  line-height: 20px;
+  padding: 8pt;
+  font-size: 12pt; 
+  line-height: 20pt;
   color: #e74632;
-  border: #e74632 4px solid;
+  border: #e74632 3pt solid;
   background-color: #ccc;
-  margin-top: 25px;
   cursor: pointer;
-/*  transform: scale(1);*/
 }
 
 .button-works:hover {
   text-decoration: none;
   color: white;
-  border: #e74632 4px solid;
+  border: #e74632 4pt solid;
   background-color: #e74632;
-  /*transform: scale(1.2);*/
   transition: all 0.5s ease-in;
 }
 
@@ -229,62 +233,62 @@ hr {
   width: 100%;
   height: auto;
   color: white;
-  padding-bottom: 50px;
+  padding-bottom: 50pt;
 }
 
 #about {
-  transform: translateX(-2000px);
+  transform: translateX(-2000pt);
   opacity: 0;
   transition: all 0.6s ease-in;
 }
 
 h2 {
-  font-size: 45px; 
-  line-height: 50px;
+  font-size: 45pt; 
+  line-height: 50pt;
   color: #330066;
-  padding-bottom: 20px;
+  padding-bottom: 20pt;
   font-weight: bold;
   color: #ED796B;
 }
 
 #about h2{
-  padding-top: 80px;
-  padding-left: 15%;
+  padding-top: 80pt;
+  padding-left: 10%;
 }
 
 
 #about p, #about ul{
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  border: 2px green;
 }
 
 
 #about li{
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 18pt;
+  line-height: 30pt;
   list-style-type: disc;
-  margin-left: 20px;
+  margin-left: 20pt;
 }
 
 #about li:last-child {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 18pt;
+  line-height: 30pt;
   list-style-type: disc;
-  margin-left: 20px;
-  padding-bottom: 50px;
+  margin-left: 20pt;
+  padding-bottom: 50pt;
 }
 
 
 #about p{
-  font-size: 23px;
-  line-height: 40px;
-  /*padding-top: 30px;*/
+  font-size: 20pt;
+  line-height: 40pt;
+  /*padding-top: 30pt;*/
 }
 
 #about p:last-child {
-  padding-top: 50px;
-  /*padding-top: 30px;*/
+  padding-top: 50pt;
+  /*padding-top: 30pt;*/
 }
 
 
@@ -299,56 +303,65 @@ h2 {
 
 /* TABLET / MOBiLE RESIZING */
 
+/*
 
-
-@media (max-device-width: 400px) {
+@media (max-device-width: 400pt) {
 
   #topNav {
-    height: 110px;
+    height: 110pt;
   }
 
   #topNav p {
-    font: 40px Helvetica;
-    line-height: 110px;
+    font: 40pt Helvetica;
+    line-height: 110pt;
   }
 
   #topNav li {
-    font: 30px Helvetica;
-    line-height: 110px;
+    font: 33pt Helvetica;
+    line-height: 110pt;
   }
 
 
   #intro{
     background-position: 50% 50%;
-    height: 600px;
+    height: 600pt;
   }
 
+  #intro{
+  background-image: url(images/fc-image3.jpg);
+  height: 700pt;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
   #intro2{
-    height: 300px;
+    height: 300pt;
   }
 
   #intro2 p {
     width: 95%;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 30pt;
+    line-height: 40pt;
   }
 
   #works {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
+    padding-left: 40pt;
   }
 
 
   #works img{
     float: none;
     width: 100%;
-    margin-left: 0px;
-    margin-bottom: 30px;
+    margin-left: 0pt;
+    margin-bottom: 30pt;
   }
 
   #works h3{
-    padding-bottom: 10px;
+    padding-bottom: 10pt;
   }
 
   #works .project1, .project2, .project3{
@@ -356,37 +369,34 @@ h2 {
   }
 
   #about p{
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 19pt;
+    line-height: 30pt;
   }
 
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 900pt) {
 
   #intro2 p {
     width: 80%;
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 35pt;
+    line-height: 45pt;
     padding-top: 4%;
   }
 
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1030pt) {
 
   #works img{
     float: none;
     width: 110%;
-    margin-bottom: 30px;
-    margin-left: 0px;
+    margin-bottom: 30pt;
+    margin-left: 0pt;
   }
-/*
-  #works .project1, .project2, .project3{
-    width: 50%;
-  }*/
+
 
 }
-
+*/
 
