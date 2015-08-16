@@ -300,36 +300,12 @@ h2 {
 /* TABLET / MOBiLE RESIZING */
 
 
-@media (max-width: 900px) {
 
-  #intro2 p {
-    width: 80%;
-    font-size: 25px;
-    line-height: 45px;
-    padding-top: 4%;
-  }
-
-}
-
-@media (max-width: 1000px) {
-
-  #works img{
-    float: none;
-    width: 110%;
-    margin-bottom: 30px;
-    margin-left: 0px;
-  }
-
-  #works .project1, .project2, .project3{
-    width: 50%;
-  }
-
-}
+@media (max-device-width: 400px) {
 
 
-@media (max-width: 600px) {
   #intro{
-   max-height: 700px;
+    height: 1500px;
   }
 
   #intro2{
@@ -337,11 +313,17 @@ h2 {
   }
 
   #intro2 p {
-    width: 80%;
-    font-size: 21px;
-    line-height: 35px;
-    padding-top: 2%;
+    width: 95%;
+    font-size: 27px;
+    line-height: 40px;
   }
+
+  #works {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
 
   #works img{
     float: none;
@@ -355,7 +337,7 @@ h2 {
   }
 
   #works .project1, .project2, .project3{
-    width: 80%;
+    width: 100%;
   }
 
   #about p{
@@ -364,4 +346,32 @@ h2 {
   }
 
 }
+
+
+@media (max-width: 900px) {
+
+  #intro2 p {
+    width: 80%;
+    font-size: 25px;
+    line-height: 45px;
+    padding-top: 4%;
+  }
+
+}
+
+@media (max-width: 1030px) {
+
+  #works img{
+    float: none;
+    width: 110%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+/*
+  #works .project1, .project2, .project3{
+    width: 50%;
+  }*/
+
+}
+
 
