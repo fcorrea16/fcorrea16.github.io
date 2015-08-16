@@ -303,9 +303,24 @@ h2 {
 
 @media (max-device-width: 400px) {
 
+  #topNav {
+    height: 90px;
+  }
+
+  #topNav p {
+    font: 30px Helvetica;
+    line-height: 90px;
+  }
+
+  #topNav li {
+    font: 22px Helvetica;
+    line-height: 92px;
+  }
+
 
   #intro{
-    height: 1500px;
+    background-position: 50% 50%;
+    height: 600px;
   }
 
   #intro2{
@@ -314,14 +329,14 @@ h2 {
 
   #intro2 p {
     width: 95%;
-    font-size: 27px;
+    font-size: 30px;
     line-height: 40px;
   }
 
   #works {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    padding-left: 20px;
   }
 
 
