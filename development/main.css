@@ -306,31 +306,47 @@ h2 {
 
 @media (max-device-width: 400pt) {
 
+ /* #topNav {
+    height: 110pt;
+  }
 
   #topNav p {
-    padding-left: 10pt;
+    font: 40pt Helvetica;
+    line-height: 110pt;
   }
 
   #topNav li {
-   padding-right:15pt;
-  }
+    font: 33pt Helvetica;
+    line-height: 110pt;
+  }*/
 
+
+ /* #intro{
+    background-image: url(images/fcorrea-mobile.png);
+    height: 600pt;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin-top: 80px;
+    background-size: 110% ;
+  }*/
 
   #intro2 p {
+    opacity: 1;
     width: 90%;
-    font-size: 18pt;
-    line-height: 26pt;
+    font-size: 25pt;
+    line-height: 40pt;
   }
 
 
   .project-info{
     width: 80%;
     margin-left: 10%;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .project-image {
-    width: 80%;
+    width: 60%;
     margin-left: 10%;
     border-radius: 10pt;
   }
@@ -341,37 +357,19 @@ h2 {
   }
 
   #works .project1 {
-    padding-top: 40pt;
+    padding-top: 60pt;
   }
 
   #works li {
     font-size: 14pt; 
-    line-height: 20pt;
-    padding-bottom: 15pt;
+    line-height: 17pt;
+    padding-bottom: 25pt;
   }
 
   #top-button{
     transform: scale(1.5) ;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-  #about li{
-    font-size: 14pt;
-  }
-
-  #about li:last-child {
-    font-size: 14pt;
-  }
-
-
-  #about p{
-    font-size: 16pt;
-    line-height: 28pt;
-  }
-
-  #about p, #about ul{
-    width: 80%;
+    margin-right: 40px;
+    margin-bottom: 40px;
   }
 
 }
